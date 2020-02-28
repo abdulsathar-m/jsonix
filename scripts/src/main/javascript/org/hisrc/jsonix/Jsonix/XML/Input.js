@@ -165,6 +165,7 @@ Jsonix.XML.Input = Jsonix.Class({
 			} else {
 				this.eventType = 2;
 			}
+			this.popNS();
 			return this.eventType;
 		}
 	},
